@@ -46,14 +46,13 @@ Build and start the application using Docker Compose:
 docker-compose up --build
 ```
 
-The FastAPI app will be available at [http://localhost:8000](http://localhost:8000).
+The FastAPI app will be available at [http://localhost:8000](http://localhost:8080).
 
 ### API Documentation
 
 FastAPI provides interactive docs at:
 
 - [Swagger UI](http://localhost:8000/docs)
-- [ReDoc](http://localhost:8000/redoc)
 
 ### Running Tests
 
@@ -80,4 +79,5 @@ This command-line script is available in the `app/scripts` directory and is inte
 ## Usage
 
 - **Regular Users:** Register, log in, view rooms, book a meeting slot, and manage your own bookings.
-- **Admins:** Log in with admin credentials to add
+- **Admins:** Log in with admin credentials to add/edit rooms and oversee all bookings.
+
